@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Meta tags for character set, viewport, and site verification -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="impact-site-verification" value="d85ddff5-1939-4707-87ba-cbba7243379e">
+  
+  <!-- Title of the page -->
   <title>Maximillian's Links</title>
+  
+  <!-- Link to external CSS file for styling -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Main container to center content on the page -->
   <div class="container">
+    
+    <!-- Header with a title and description -->
     <header>
       <h1>Maximillian's Links</h1>
       <p>Explore my recommended courses and projects.</p>
     </header>
 
+    <!-- Section where the links (buttons) are displayed -->
     <section class="links">
+      <!-- Each link is placed inside a card-style div for better presentation -->
       <div class="link-card">
+        <!-- Link pointing to an external course or resource -->
         <a href="https://affiliate-link.com" target="_blank">Learn Python</a>
       </div>
       <div class="link-card">
@@ -29,6 +40,7 @@
       </div>
     </section>
 
+    <!-- Footer with copyright information -->
     <footer>
       <p>&copy; 2025 Maximillian-Kenas-Tarmidi</p>
     </footer>
