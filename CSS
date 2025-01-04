@@ -1,10 +1,11 @@
-/* General Reset */
+/* Global styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Body styles: setting font family, background color, and text alignment */
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f7f7f7;
@@ -13,58 +14,62 @@ body {
   padding: 20px;
 }
 
+/* Container that holds the content with a maximum width */
 .container {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for a card-like effect */
 }
 
-/* Header Styling */
+/* Header styles */
 header h1 {
-  color: #4CAF50;
+  color: #4CAF50; /* Green color for the title */
   font-size: 36px;
   margin-bottom: 10px;
 }
 
 header p {
   font-size: 18px;
-  color: #777;
+  color: #777; /* Lighter color for description */
   margin-bottom: 30px;
 }
 
-/* Link Cards */
+/* Links container: flexbox to stack the cards vertically */
 .links {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 15px; /* Space between each link card */
 }
 
+/* Styles for each link card (button-like appearance) */
 .link-card {
-  background-color: #4CAF50;
+  background-color: #4CAF50; /* Green background for the cards */
   padding: 15px;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow around the card */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition on hover */
 }
 
+/* Styling for the anchor tags inside the cards */
 .link-card a {
-  color: white;
-  text-decoration: none;
+  color: white; /* White text for the link */
+  text-decoration: none; /* Remove underline from the link */
   font-size: 18px;
-  font-weight: bold;
+  font-weight: bold; /* Bold text */
 }
 
+/* Hover effect for the card: change color and slightly move the card up */
 .link-card:hover {
-  background-color: #45a049;
-  transform: translateY(-5px);
+  background-color: #45a049; /* Slightly darker green on hover */
+  transform: translateY(-5px); /* Move the card upwards */
 }
 
-/* Footer Styling */
+/* Footer styling */
 footer {
   margin-top: 30px;
   font-size: 14px;
-  color: #777;
+  color: #777; /* Lighter color for the footer text */
 }
